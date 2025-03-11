@@ -1,16 +1,30 @@
-# This is a sample Python script.
+from constants import YES, CENTRAL_PROCESSING_UNIT, POWER_SUPPY_UNIT, GRAPHICS_PROCESSING_UNIT
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print("Welcome to my computer quiz")
+initiate = input("Do you wanna play the Quiz game? ").lower()
+if initiate != YES:
+    quit()
+print("Okay! Let's play!!!")
+score = 0
+answer = input("What does CPU stand for? ").lower()
+if answer == CENTRAL_PROCESSING_UNIT:
+    print('Correct✅')
+    score += 1
+else:
+    print('Incorrect❌')
 
+answer = input("What is PSU? ").lower()
+if answer == POWER_SUPPY_UNIT:
+    print('Correct✅')
+    score += 1
+else:
+    print('Incorrect❌')
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+answer = input("What does GPU stand for? ").lower()
+if answer == GRAPHICS_PROCESSING_UNIT:
+    print('Correct✅')
+    score += 1
+else:
+    print('Incorrect❌')
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(f"Your final score is {score}")
