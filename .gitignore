@@ -1,0 +1,5 @@
+.idea/
+BasicDjango/env/
+MadLib/__pycache__/
+PassMgr/__pycache__/
+BasicDjango/demo/demo/__pycache__/
