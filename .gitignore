@@ -1,5 +1,10 @@
+__pycache__/
+venv/
+env/
+.env
+.venv/
+.env/
+*.pyc
+.env
+.vscode/
 .idea/
-BasicDjango/env/
-MadLib/__pycache__/
-PassMgr/__pycache__/
-BasicDjango/demo/demo/__pycache__/
