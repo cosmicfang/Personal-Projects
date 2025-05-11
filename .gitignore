@@ -1,4 +1,5 @@
 .idea/
+*/venv/
 BasicDjango/env/
 MadLib/__pycache__/
 PassMgr/__pycache__/
