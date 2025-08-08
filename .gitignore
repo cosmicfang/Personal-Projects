@@ -1,8 +1,10 @@
 .idea/
 */venv/
+*/.venv/
 BasicDjango/env/
 MadLib/__pycache__/
 PassMgr/__pycache__/
 BasicDjango/demo/demo/__pycache__/
 FlaskWSL/venv
 FlaskWSL/venv/
+venv_combined
